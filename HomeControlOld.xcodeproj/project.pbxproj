@@ -8,22 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		27D48AC92B4C373700572FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AC82B4C373700572FA1 /* AppDelegate.swift */; };
-		27D48ACB2B4C373700572FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48ACA2B4C373700572FA1 /* SceneDelegate.swift */; };
-		27D48ACD2B4C373700572FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48ACC2B4C373700572FA1 /* ViewController.swift */; };
 		27D48AD02B4C373700572FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D48ACE2B4C373700572FA1 /* Main.storyboard */; };
 		27D48AD22B4C373900572FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D48AD12B4C373900572FA1 /* Assets.xcassets */; };
 		27D48AD52B4C373900572FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D48AD32B4C373900572FA1 /* LaunchScreen.storyboard */; };
+		27D48AE22B4C382200572FA1 /* appdefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27D48AE12B4C382200572FA1 /* appdefaults.plist */; };
+		27D48AE82B4C383900572FA1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AE52B4C383900572FA1 /* GCDAsyncUdpSocket.m */; };
+		27D48AE92B4C383900572FA1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AE62B4C383900572FA1 /* GCDAsyncSocket.m */; };
+		27D48AF92B4C389D00572FA1 /* PlcDataAccessibleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AEA2B4C389D00572FA1 /* PlcDataAccessibleProtocol.swift */; };
+		27D48AFA2B4C389D00572FA1 /* Jet32DataTelegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AEB2B4C389D00572FA1 /* Jet32DataTelegram.swift */; };
+		27D48AFB2B4C389D00572FA1 /* Jet32+PlcDataAccessibleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AEC2B4C389D00572FA1 /* Jet32+PlcDataAccessibleProtocol.swift */; };
+		27D48AFC2B4C389D00572FA1 /* Jet32NW+PlcDataAccessibleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AED2B4C389D00572FA1 /* Jet32NW+PlcDataAccessibleProtocol.swift */; };
+		27D48AFD2B4C389D00572FA1 /* PlcDataAccessEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AEE2B4C389D00572FA1 /* PlcDataAccessEntry.swift */; };
+		27D48AFE2B4C389D00572FA1 /* Jet32GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AEF2B4C389D00572FA1 /* Jet32GlobalVariables.swift */; };
+		27D48AFF2B4C389D00572FA1 /* PlcDataAccessibleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF02B4C389D00572FA1 /* PlcDataAccessibleDelegate.swift */; };
+		27D48B002B4C389D00572FA1 /* Jet32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF12B4C389D00572FA1 /* Jet32.swift */; };
+		27D48B022B4C389D00572FA1 /* NWConnectionDemoClientServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF32B4C389D00572FA1 /* NWConnectionDemoClientServer.swift */; };
+		27D48B032B4C389D00572FA1 /* Jet32NW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF42B4C389D00572FA1 /* Jet32NW.swift */; };
+		27D48B042B4C389E00572FA1 /* ShutterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF52B4C389D00572FA1 /* ShutterItem.swift */; };
+		27D48B052B4C389E00572FA1 /* Data+hexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF62B4C389D00572FA1 /* Data+hexEncodedString.swift */; };
+		27D48B062B4C389E00572FA1 /* ShutterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF72B4C389D00572FA1 /* ShutterList.swift */; };
+		27D48B072B4C389E00572FA1 /* Jet32Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48AF82B4C389D00572FA1 /* Jet32Delegate.swift */; };
+		27D48B092B4C393F00572FA1 /* ShutterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B082B4C393F00572FA1 /* ShutterTableViewCell.swift */; };
+		27D48B0E2B4C395D00572FA1 /* ShutterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0A2B4C395C00572FA1 /* ShutterTableViewController.swift */; };
+		27D48B0F2B4C395D00572FA1 /* PLCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0B2B4C395C00572FA1 /* PLCViewController.swift */; };
+		27D48B102B4C395D00572FA1 /* ShutterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0C2B4C395C00572FA1 /* ShutterDetailViewController.swift */; };
+		27D48B112B4C395D00572FA1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0D2B4C395C00572FA1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27D48AC52B4C373700572FA1 /* HomeControlOld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeControlOld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D48AC82B4C373700572FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27D48ACA2B4C373700572FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27D48ACC2B4C373700572FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27D48ACF2B4C373700572FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27D48AD12B4C373900572FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D48AD42B4C373900572FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D48AD62B4C373900572FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D48AE12B4C382200572FA1 /* appdefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = appdefaults.plist; path = HomeControlOld/Ressources/appdefaults.plist; sourceTree = SOURCE_ROOT; };
+		27D48AE32B4C383900572FA1 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = HomeControlOld/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		27D48AE42B4C383900572FA1 /* HomeControl-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HomeControl-Bridging-Header.h"; path = "HomeControlOld/HomeControl-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		27D48AE52B4C383900572FA1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = HomeControlOld/GCDAsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
+		27D48AE62B4C383900572FA1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = HomeControlOld/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		27D48AE72B4C383900572FA1 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = HomeControlOld/GCDAsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
+		27D48AEA2B4C389D00572FA1 /* PlcDataAccessibleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlcDataAccessibleProtocol.swift; path = HomeControlOld/PlcDataAccessibleProtocol.swift; sourceTree = SOURCE_ROOT; };
+		27D48AEB2B4C389D00572FA1 /* Jet32DataTelegram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jet32DataTelegram.swift; path = HomeControlOld/Jet32DataTelegram.swift; sourceTree = SOURCE_ROOT; };
+		27D48AEC2B4C389D00572FA1 /* Jet32+PlcDataAccessibleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jet32+PlcDataAccessibleProtocol.swift"; path = "HomeControlOld/Jet32+PlcDataAccessibleProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		27D48AED2B4C389D00572FA1 /* Jet32NW+PlcDataAccessibleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Jet32NW+PlcDataAccessibleProtocol.swift"; path = "HomeControlOld/Jet32NW+PlcDataAccessibleProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		27D48AEE2B4C389D00572FA1 /* PlcDataAccessEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlcDataAccessEntry.swift; path = HomeControlOld/PlcDataAccessEntry.swift; sourceTree = SOURCE_ROOT; };
+		27D48AEF2B4C389D00572FA1 /* Jet32GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jet32GlobalVariables.swift; path = HomeControlOld/Jet32GlobalVariables.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF02B4C389D00572FA1 /* PlcDataAccessibleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlcDataAccessibleDelegate.swift; path = HomeControlOld/PlcDataAccessibleDelegate.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF12B4C389D00572FA1 /* Jet32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jet32.swift; path = HomeControlOld/Jet32.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF32B4C389D00572FA1 /* NWConnectionDemoClientServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NWConnectionDemoClientServer.swift; path = HomeControlOld/NWConnectionDemoClientServer.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF42B4C389D00572FA1 /* Jet32NW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jet32NW.swift; path = HomeControlOld/Jet32NW.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF52B4C389D00572FA1 /* ShutterItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterItem.swift; path = HomeControlOld/ShutterItem.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF62B4C389D00572FA1 /* Data+hexEncodedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+hexEncodedString.swift"; path = "HomeControlOld/Data+hexEncodedString.swift"; sourceTree = SOURCE_ROOT; };
+		27D48AF72B4C389D00572FA1 /* ShutterList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterList.swift; path = HomeControlOld/ShutterList.swift; sourceTree = SOURCE_ROOT; };
+		27D48AF82B4C389D00572FA1 /* Jet32Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Jet32Delegate.swift; path = HomeControlOld/Jet32Delegate.swift; sourceTree = SOURCE_ROOT; };
+		27D48B082B4C393F00572FA1 /* ShutterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterTableViewCell.swift; path = HomeControlOld/ShutterTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		27D48B0A2B4C395C00572FA1 /* ShutterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterTableViewController.swift; path = HomeControlOld/ShutterTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		27D48B0B2B4C395C00572FA1 /* PLCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PLCViewController.swift; path = HomeControlOld/PLCViewController.swift; sourceTree = SOURCE_ROOT; };
+		27D48B0C2B4C395C00572FA1 /* ShutterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterDetailViewController.swift; path = HomeControlOld/ShutterDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		27D48B0D2B4C395C00572FA1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = HomeControlOld/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +99,78 @@
 		27D48AC72B4C373700572FA1 /* HomeControlOld */ = {
 			isa = PBXGroup;
 			children = (
-				27D48AC82B4C373700572FA1 /* AppDelegate.swift */,
-				27D48ACA2B4C373700572FA1 /* SceneDelegate.swift */,
-				27D48ACC2B4C373700572FA1 /* ViewController.swift */,
-				27D48ACE2B4C373700572FA1 /* Main.storyboard */,
-				27D48AD12B4C373900572FA1 /* Assets.xcassets */,
-				27D48AD32B4C373900572FA1 /* LaunchScreen.storyboard */,
-				27D48AD62B4C373900572FA1 /* Info.plist */,
+				27D48AE02B4C380200572FA1 /* Ressources */,
+				27D48ADF2B4C37F200572FA1 /* Controller */,
+				27D48ADE2B4C37E700572FA1 /* View */,
+				27D48ADD2B4C37D700572FA1 /* Model */,
+				27D48ADC2B4C37CC00572FA1 /* Socket */,
 			);
 			path = HomeControlOld;
+			sourceTree = "<group>";
+		};
+		27D48ADC2B4C37CC00572FA1 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				27D48AE32B4C383900572FA1 /* GCDAsyncSocket.h */,
+				27D48AE62B4C383900572FA1 /* GCDAsyncSocket.m */,
+				27D48AE72B4C383900572FA1 /* GCDAsyncUdpSocket.h */,
+				27D48AE52B4C383900572FA1 /* GCDAsyncUdpSocket.m */,
+				27D48AE42B4C383900572FA1 /* HomeControl-Bridging-Header.h */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		27D48ADD2B4C37D700572FA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27D48AC82B4C373700572FA1 /* AppDelegate.swift */,
+				27D48AF62B4C389D00572FA1 /* Data+hexEncodedString.swift */,
+				27D48AF12B4C389D00572FA1 /* Jet32.swift */,
+				27D48AEC2B4C389D00572FA1 /* Jet32+PlcDataAccessibleProtocol.swift */,
+				27D48AEB2B4C389D00572FA1 /* Jet32DataTelegram.swift */,
+				27D48AF82B4C389D00572FA1 /* Jet32Delegate.swift */,
+				27D48AEF2B4C389D00572FA1 /* Jet32GlobalVariables.swift */,
+				27D48AF42B4C389D00572FA1 /* Jet32NW.swift */,
+				27D48AED2B4C389D00572FA1 /* Jet32NW+PlcDataAccessibleProtocol.swift */,
+				27D48AF32B4C389D00572FA1 /* NWConnectionDemoClientServer.swift */,
+				27D48AEE2B4C389D00572FA1 /* PlcDataAccessEntry.swift */,
+				27D48AF02B4C389D00572FA1 /* PlcDataAccessibleDelegate.swift */,
+				27D48AEA2B4C389D00572FA1 /* PlcDataAccessibleProtocol.swift */,
+				27D48AF52B4C389D00572FA1 /* ShutterItem.swift */,
+				27D48AF72B4C389D00572FA1 /* ShutterList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27D48ADE2B4C37E700572FA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27D48B082B4C393F00572FA1 /* ShutterTableViewCell.swift */,
+				27D48ACE2B4C373700572FA1 /* Main.storyboard */,
+				27D48AD32B4C373900572FA1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27D48ADF2B4C37F200572FA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27D48B0B2B4C395C00572FA1 /* PLCViewController.swift */,
+				27D48B0D2B4C395C00572FA1 /* SettingsViewController.swift */,
+				27D48B0C2B4C395C00572FA1 /* ShutterDetailViewController.swift */,
+				27D48B0A2B4C395C00572FA1 /* ShutterTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27D48AE02B4C380200572FA1 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				27D48AD62B4C373900572FA1 /* Info.plist */,
+				27D48AD12B4C373900572FA1 /* Assets.xcassets */,
+				27D48AE12B4C382200572FA1 /* appdefaults.plist */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +205,7 @@
 				TargetAttributes = {
 					27D48AC42B4C373700572FA1 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -125,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D48AE22B4C382200572FA1 /* appdefaults.plist in Resources */,
 				27D48AD52B4C373900572FA1 /* LaunchScreen.storyboard in Resources */,
 				27D48AD22B4C373900572FA1 /* Assets.xcassets in Resources */,
 				27D48AD02B4C373700572FA1 /* Main.storyboard in Resources */,
@@ -138,9 +246,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D48ACD2B4C373700572FA1 /* ViewController.swift in Sources */,
+				27D48AFE2B4C389D00572FA1 /* Jet32GlobalVariables.swift in Sources */,
+				27D48B042B4C389E00572FA1 /* ShutterItem.swift in Sources */,
+				27D48AE82B4C383900572FA1 /* GCDAsyncUdpSocket.m in Sources */,
+				27D48B102B4C395D00572FA1 /* ShutterDetailViewController.swift in Sources */,
+				27D48B022B4C389D00572FA1 /* NWConnectionDemoClientServer.swift in Sources */,
+				27D48AFA2B4C389D00572FA1 /* Jet32DataTelegram.swift in Sources */,
+				27D48B002B4C389D00572FA1 /* Jet32.swift in Sources */,
+				27D48B032B4C389D00572FA1 /* Jet32NW.swift in Sources */,
+				27D48B052B4C389E00572FA1 /* Data+hexEncodedString.swift in Sources */,
+				27D48B0F2B4C395D00572FA1 /* PLCViewController.swift in Sources */,
+				27D48AF92B4C389D00572FA1 /* PlcDataAccessibleProtocol.swift in Sources */,
+				27D48AFF2B4C389D00572FA1 /* PlcDataAccessibleDelegate.swift in Sources */,
+				27D48AE92B4C383900572FA1 /* GCDAsyncSocket.m in Sources */,
+				27D48B092B4C393F00572FA1 /* ShutterTableViewCell.swift in Sources */,
+				27D48B062B4C389E00572FA1 /* ShutterList.swift in Sources */,
+				27D48B112B4C395D00572FA1 /* SettingsViewController.swift in Sources */,
+				27D48B072B4C389E00572FA1 /* Jet32Delegate.swift in Sources */,
+				27D48AFB2B4C389D00572FA1 /* Jet32+PlcDataAccessibleProtocol.swift in Sources */,
 				27D48AC92B4C373700572FA1 /* AppDelegate.swift in Sources */,
-				27D48ACB2B4C373700572FA1 /* SceneDelegate.swift in Sources */,
+				27D48AFD2B4C389D00572FA1 /* PlcDataAccessEntry.swift in Sources */,
+				27D48B0E2B4C395D00572FA1 /* ShutterTableViewController.swift in Sources */,
+				27D48AFC2B4C389D00572FA1 /* Jet32NW+PlcDataAccessibleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -290,16 +417,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FNGMABF4M4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeControlOld/Info.plist;
+				INFOPLIST_FILE = HomeControlOld/Ressources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeControlOld;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +438,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.Jetter.HomeControlOld.HomeControlOld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeControlOld/HomeControl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,16 +450,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FNGMABF4M4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeControlOld/Info.plist;
+				INFOPLIST_FILE = HomeControlOld/Ressources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HomeControlOld;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.Jetter.HomeControlOld.HomeControlOld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HomeControlOld/HomeControl-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
