@@ -33,6 +33,7 @@
 		27D48B0F2B4C395D00572FA1 /* PLCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0B2B4C395C00572FA1 /* PLCViewController.swift */; };
 		27D48B102B4C395D00572FA1 /* ShutterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0C2B4C395C00572FA1 /* ShutterDetailViewController.swift */; };
 		27D48B112B4C395D00572FA1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D48B0D2B4C395C00572FA1 /* SettingsViewController.swift */; };
+		27D48B132B4C428C00572FA1 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27D48B122B4C428C00572FA1 /* TODO.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		27D48B0B2B4C395C00572FA1 /* PLCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PLCViewController.swift; path = HomeControlOld/PLCViewController.swift; sourceTree = SOURCE_ROOT; };
 		27D48B0C2B4C395C00572FA1 /* ShutterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShutterDetailViewController.swift; path = HomeControlOld/ShutterDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 		27D48B0D2B4C395C00572FA1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = HomeControlOld/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
+		27D48B122B4C428C00572FA1 /* TODO.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TODO.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		27D48AC72B4C373700572FA1 /* HomeControlOld */ = {
 			isa = PBXGroup;
 			children = (
+				27D48B122B4C428C00572FA1 /* TODO.rtf */,
 				27D48AE02B4C380200572FA1 /* Ressources */,
 				27D48ADF2B4C37F200572FA1 /* Controller */,
 				27D48ADE2B4C37E700572FA1 /* View */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D48B132B4C428C00572FA1 /* TODO.rtf in Resources */,
 				27D48AE22B4C382200572FA1 /* appdefaults.plist in Resources */,
 				27D48AD52B4C373900572FA1 /* LaunchScreen.storyboard in Resources */,
 				27D48AD22B4C373900572FA1 /* Assets.xcassets in Resources */,
